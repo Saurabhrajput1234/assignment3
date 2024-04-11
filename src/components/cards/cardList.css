@@ -1,0 +1,27 @@
+.card-list {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  padding: 20px;
+}
+.card-list::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 307px;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 384px; 
+}
+.image-card{
+  height: 270px;
+  background: black;
+
+}
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

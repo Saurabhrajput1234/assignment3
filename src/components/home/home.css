@@ -1,0 +1,23 @@
+.banner-container{
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  
+}
+.banner {
+  height: 336px;
+  width: 100vw;
+  /* margin: 50px; */
+  overflow: hidden;
+  padding-top: 162px;
+}
+.banner img{
+  width: 100%;
+  padding-left: 30px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
