@@ -1,23 +1,23 @@
- React + Vite Project
+### React + Vite Project
 This guide will help you set up and run a React project using Vite on your local system.
 
-Prerequisites:
+## Prerequisites:
 Make sure you have Node.js and npm installed on your system. You can download and install them from here.
 
-Installation:
+## Installation:
 
 
-Clone the repository to your local machine:
+# Clone the repository to your local machine:
 git clone https://github.com/Saurabhrajput1234/assignment3.git
 
 
-Navigate to the project directory:
+# Navigate to the project directory:
 cd assignment3
 
 
-Install dependencies:
+# Install dependencies:
 npm install
 
-Running the Project
+# Running the Project:
 To run the project, simply execute the following command:
 npm run dev
