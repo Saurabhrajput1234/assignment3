@@ -6,7 +6,8 @@ const Card = ({title,content}) => {
     <div className="card">
     <div className="image-card" ></div>
     <div className="card-text"><h2>{title}</h2>
-      <p>{content}</p></div>
+    <div className="card-Review"><p>{content}</p></div>
+      </div>
       
     </div>
   )

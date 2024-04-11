@@ -5,7 +5,7 @@ const ReviewsCard = ({title,content}) => {
   return (
     <div className="Rcard">
       <h2>{title}</h2>
-      <p>{content}</p>
+      <div className="card-Review"><p>{content}</p></div>
     </div>
   )
 }
