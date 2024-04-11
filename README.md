@@ -5,10 +5,16 @@ Prerequisites:
 Make sure you have Node.js and npm installed on your system. You can download and install them from here.
 
 Installation:
+
+
 Clone the repository to your local machine:
 git clone https://github.com/Saurabhrajput1234/assignment3.git
+
+
 Navigate to the project directory:
 cd assignment3
+
+
 Install dependencies:
 npm install
 
