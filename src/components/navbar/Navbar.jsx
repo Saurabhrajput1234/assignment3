@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./navbar.css";
 import { useState } from "react";
 import { MdAddShoppingCart } from "react-icons/md";
-import { VscAccount } from "react-icons/vsc";
+import { FaUser} from "react-icons/fa";
 
 const Navbar = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -30,9 +30,9 @@ const Navbar = () => {
 
             <Link to="/dash">
               <div className="profile1">
-                <VscAccount
+              <FaUser 
                   style={{
-                    fontSize: "2.5rem",
+                    fontSize: "1.2rem",
                     paddingTop: "13px",
                     color: "gray",
                   }}
